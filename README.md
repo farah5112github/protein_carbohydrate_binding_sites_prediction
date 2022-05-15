@@ -15,6 +15,7 @@ In order to look into this issue, StackCBPred[2] was trained by the balanced tra
 
 ## References 
 <a id="1">[1]</a>
-G. Taherzadeh, et al., Sequence-based prediction of protein−carbohydrate binding sites using support vector machines, J. Chem. Inf. Model. 56 (2016).
+G. Taherzadeh, et al., Sequence-based prediction of protein−carbohydrate binding sites using support vector machines, J. Chem. Inf. Model. 56 (2016).<br />
+
 <a id="2">[2]</a>
 Gattani, Suraj, Avdesh Mishra, and Md Tamjidul Hoque. "StackCBPred: A stacking based prediction of protein-carbohydrate binding sites from sequence." Carbohydrate research 486 (2019): 107857.
