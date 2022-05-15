@@ -48,6 +48,13 @@ This file contains 88 high-resolution carbohydrate binding protein sequences, of
 - Balanced Accuracy <br />
 - Mathews correlation coefficient (MCC)
 
+## Environmental Setup :
+**Programming Language :** Python
+**Neural Network based library :** Keras
+**Machine Learning based library :** Scikitlearn
+**Web IDE for python :** Google Colab
+**Other libraries :** Numpy,pandas,matplotlib
+
 ## References 
 <a id="1">[1]</a>
 Taherzadeh, Ghazaleh, et al. "Sequence-based prediction of protein–carbohydrate binding sites using support vector machines." Journal of chemical information and modeling 56.10 (2016): 2115-2122.<br />
