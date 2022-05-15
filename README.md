@@ -12,26 +12,25 @@ A method, SPRTNT-CBH[1] was proposed in which PSSM features along with other pre
 In order to look into this issue, StackCBPred[2] was trained by the balanced training dataset and this dataset was obtained by performing the random under sampling technique. Several evolution-derived and predicted sequence and structure-based features were extracted and stacking-based ensemble classifiers were used to train the dataset. Although this method achieved significant advancement in sensitivity and specificity compared to the aforementioned sequence-based approaches, this technique can discard potentially useful information and might not represent the real dataset as random under sampling technique was involved. Moreover, utilization of more relevant features could make the prediction performance more significant.
 
 ## Classifiers Used
-The following classifiers have been used in the experiements so far :
-
-Random Forest
-Extra Tree Classifier
-Support Vector Machine
-Logistic Regression
-Decision Tree
-Gaussian Naive Bayes
-K-Nearest Neighbour
-Partial Least Square Regression
-Extreme Gradient Boosting
-Muti Layer Perceptron
+The following classifiers have been used in the experiements so far : <br />
+Random Forest <br />
+Extra Tree Classifier <br />
+Support Vector Machine <br />
+Logistic Regression <br />
+Decision Tree <br />
+Gaussian Naive Bayes <br />
+K-Nearest Neighbour <br />
+Partial Least Square Regression <br />
+Extreme Gradient Boosting <br />
+Muti Layer Perceptron <br />
 
 ## Performance Metrics
 
-The classifiers were evaluated using the following metrics:
-Accuracy
-Sensitivity
-Specificity
-Balanced Accuracy
+The classifiers were evaluated using the following metrics: <br />
+Accuracy <br />
+Sensitivity <br />
+Specificity <br />
+Balanced Accuracy <br />
 Mathews correlation coefficient (MCC)
 
 ## References 
