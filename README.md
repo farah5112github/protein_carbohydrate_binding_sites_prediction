@@ -49,10 +49,10 @@ This file contains 88 high-resolution carbohydrate binding protein sequences, of
 - Mathews correlation coefficient (MCC)
 
 ## Environmental Setup :
-**Programming Language :** Python
-**Neural Network based library :** Keras
-**Machine Learning based library :** Scikitlearn
-**Web IDE for python :** Google Colab
+**Programming Language :** Python  <br />
+**Neural Network based library :** Keras  <br />
+**Machine Learning based library :** Scikitlearn  <br />
+**Web IDE for python :** Google Colab  <br />
 **Other libraries :** Numpy,pandas,matplotlib
 
 ## References 
