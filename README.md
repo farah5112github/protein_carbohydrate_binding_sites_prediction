@@ -1,4 +1,4 @@
-# Sequence based prediction of Protein-Carbohydrate binding sites :
+# Sequence based prediction of Protein-Carbohydrate binding sites(On-going):
 
 Nucleic acids, proteins, carbohydrates and lipids are four important molecules for any organisms, among them carbohydrates come after the DNA and proteins and which is thought about the third important molecule of life. The carbohydrates communicate with other protein molecules and these protein-carbohydrate interactions have several roles in different biological processes (cellular adhesion, cellular recognition, protein folding, subcellular localization, ligand recognition as well as in human body. Moreover, they provide a protection of human cell against pathogens as well as they play an important role as biomarkers or drug targets.
 
@@ -11,11 +11,32 @@ A method, SPRTNT-CBH[1] was proposed in which PSSM features along with other pre
 
 In order to look into this issue, StackCBPred[2] was trained by the balanced training dataset and this dataset was obtained by performing the random under sampling technique. Several evolution-derived and predicted sequence and structure-based features were extracted and stacking-based ensemble classifiers were used to train the dataset. Although this method achieved significant advancement in sensitivity and specificity compared to the aforementioned sequence-based approaches, this technique can discard potentially useful information and might not represent the real dataset as random under sampling technique was involved. Moreover, utilization of more relevant features could make the prediction performance more significant.
 
+## Classifiers Used
+The following classifiers have been used in the experiements so far :
 
+Random Forest
+Extra Tree Classifier
+Support Vector Machine
+Logistic Regression
+Decision Tree
+Gaussian Naive Bayes
+K-Nearest Neighbour
+Partial Least Square Regression
+Extreme Gradient Boosting
+Muti Layer Perceptron
+
+## Performance Metrics
+
+The classifiers were evaluated using the following metrics:
+Accuracy
+Sensitivity
+Specificity
+Balanced Accuracy
+Mathews correlation coefficient (MCC)
 
 ## References 
 <a id="1">[1]</a>
-G. Taherzadeh, et al., Sequence-based prediction of protein−carbohydrate binding sites using support vector machines, J. Chem. Inf. Model. 56 (2016).<br />
+[G. Taherzadeh, et al., Sequence-based prediction of protein−carbohydrate binding sites using support vector machines, J. Chem. Inf. Model. 56 (2016).<br />](url)
 
 <a id="2">[2]</a>
-Gattani, Suraj, Avdesh Mishra, and Md Tamjidul Hoque. "StackCBPred: A stacking based prediction of protein-carbohydrate binding sites from sequence." Carbohydrate research 486 (2019): 107857.
+[Gattani, Suraj, Avdesh Mishra, and Md Tamjidul Hoque. "StackCBPred: A stacking based prediction of protein-carbohydrate binding sites from sequence." Carbohydrate research 486 (2019): 107857.](url)
