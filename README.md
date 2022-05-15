@@ -53,7 +53,7 @@ This file contains 88 high-resolution carbohydrate binding protein sequences, of
 **Neural Network based library :** Keras  <br />
 **Machine Learning based library :** Scikitlearn  <br />
 **Web IDE for python :** Google Colab  <br />
-**Other libraries :** Numpy,pandas,matplotlib
+**Other libraries :** Numpy,pandas,matplotlib etc.
 
 ## References 
 <a id="1">[1]</a>
