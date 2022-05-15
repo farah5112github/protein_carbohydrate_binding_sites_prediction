@@ -11,13 +11,20 @@ A method, SPRTNT-CBH[[1]](#1)was proposed in which PSSM features along with othe
 
 In order to look into this issue, StackCBPred[[2]](#2) was trained by the balanced training dataset and this dataset was obtained by performing the random under sampling technique. Several evolution-derived and predicted sequence and structure-based features were extracted and stacking-based ensemble classifiers were used to train the dataset. Although this method achieved significant advancement in sensitivity and specificity compared to the aforementioned sequence-based approaches, this technique can discard potentially useful information and might not represent the real dataset as random under sampling technique was involved. Moreover, utilization of more relevant features could make the prediction performance more significant.
 
+## Objectives with specific aims  
+- To handle the unbalanced datasets more efficiently so that the potential useful inoformation can be retained.<br />
+- To improve the prediction score especially the sensitivity and balanced accuracy score.<br />
+- To add several relevant features and apply different machine learning and deep learning approaches to improve prediction performance.<br />
+- To re-analyze the proposed method using several other datasets.<br />
+- To implement an online server that can be easily used by biologists to the carbohydrate-binding sites from the protein sequence.<br />
+
 ## The Datasets 
 Initially three datasets from paper[[2]](#2) have been used for the experiments. Among them one dataset is used as Benchmark dataset and the other two(TS49 and TS88) are used as Test datasets.
-### Benchmark.txt : 
+#### Benchmark.txt : 
 This file contains 100 high-resolution carbohydrate binding protein sequences, of which 1028 residues are bining and 25958 residues are non-binding.
-### TS49.txt :
+#### TS49.txt :
 This file contains 49 high-resolution carbohydrate binding protein sequences, of which 508 residues are bining and 13230 residues are non-binding.
-### TS88.txt :
+#### TS88.txt :
 This file contains 88 high-resolution carbohydrate binding protein sequences, of which 688 residues are bining.
 
 ## Classifiers Used
